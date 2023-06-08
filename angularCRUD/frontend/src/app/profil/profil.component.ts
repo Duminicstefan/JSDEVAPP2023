@@ -20,7 +20,7 @@ export class ProfilComponent implements OnInit {
       });
       //read user
       this.apiService.readUser(this.idUser).subscribe((user: User[]) => {
-        this.user = user['data'];
+        this.user = user['users'];
       });
      
   }

@@ -15,6 +15,10 @@ export default function Layout() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        <li>
+          <Link to="/autor">Autor</Link>
+        </li>
+
         <li><a href="/aaaa"> Page 404</a></li>
       </ul>
     </nav>
